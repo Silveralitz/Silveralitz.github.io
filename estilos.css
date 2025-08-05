@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ID - header */
+#header {
+  background-color: #002c54;
+  color: white;
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Navbar */
+.navbar {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo-principal {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff9800;
+}
+
+/* Secciones */
+.seccion {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+}
+
+.subtitulo {
+  font-family: 'Montserrat', sans-serif;
+  color: #002c54;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  border-bottom: 3px solid #ff9800;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Sobre mí contenido */
+.sobre-mi-contenido {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.mi-foto {
+  width: 180px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+/* Lista de experiencia */
+.lista-experiencia {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.lista-experiencia li {
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+/* Contacto */
+#contacto a {
+  color: #002c54;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#contacto a:hover {
+  color: #ff9800;
+}
+
+/* Footer */
+#footer {
+  background-color: #002c54;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
