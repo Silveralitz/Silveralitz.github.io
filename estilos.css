@@ -115,3 +115,26 @@ body {
   font-size: 0.9rem;
   margin-top: 40px;
 }
+/* Ajustes para celulares pequeños */
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* espacio entre enlaces */
+  }
+
+  nav ul li a {
+    font-size: 14px; /* más chico para que no se solape */
+  }
+
+  img.perfil {
+    max-width: 80%;  /* que no ocupe todo el ancho */
+    margin: 0 auto;
+    display: block;
+  }
+
+  section {
+    padding: 10px; /* menos padding en mobile */
+  }
+}
+
